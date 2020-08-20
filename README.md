@@ -11,12 +11,12 @@
 - it consist of sentences and correspond a number which describes emoji
 
 # sample
-- `emoji_dictionary = {"0": "\u2764\uFE0F",    # :heart: prints a black instead of red heart depending on the font
-                    "1": ":baseball:",
-                    "2": ":beaming_face_with_smiling_eyes:",
-                    "3": ":downcast_face_with_sweat:",
-                    "4": ":fork_and_knife:",
-                   }`
+- emoji_dictionary =
+{"0": "\u2764\uFE0F",  
+"1": ":baseball:",
+"2": ":beaming_face_with_smiling_eyes:",
+"3": ":downcast_face_with_sweat:",
+"4": ":fork_and_knife:"}
 - `for e in emoji_dictionary.values():
     print(emoji.emojize(e)) ` 
 - **output**
