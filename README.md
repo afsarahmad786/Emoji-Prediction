@@ -1,9 +1,7 @@
 # Emoji Prediction
 
 ## Table of Contents (Optional)
-
-> If your `README` has a lot of info, section headers might be nice.
-
+---
 - [dataset](#dataset)
 - [sample_data](#sample)
 ---
@@ -44,11 +42,11 @@
 ---
 
 > PreProcessing
-```shell
+
+
 - first convert it into one hot encoding
 - then using glove vector convert words into embeddings
 - then make a model using LSTM layers 
 - compile the models 
 - fit the model 
-- get the prediction                  
-```
+- get the prediction   
